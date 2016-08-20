@@ -19,6 +19,6 @@ The **loopr** constructor accepts two arguments.
 Loopr(arr, callback);
 ```
 
-**arr-** The lowest number that you want the random number to be. The default value is 0.
+**arr-** The array that you want to convert into a **loopr** object.
 
-**callback-**(optional) The highest number that you want the random number to be. The default value is 100.
+**callback-**(optional) A callback function to be invoked upon creation of your **loopr** object.
