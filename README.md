@@ -4,11 +4,21 @@
 The **loopr** constructor can be accessed one of two ways.
 
 ```
-var myRandomNumber = Loopr();
+var myLooprObject = Loopr(arr);
 ```
 
 ```
-var myRandomNumber = l$();
+var myLooprObject = l$(arr);
 ```
 
-You use the constructor to create a custom **loopr** object that provides you with several useful methods. 
+You use the constructor to create a custom **loopr** array object that provides you with several useful methods. 
+
+The **loopr** constructor accepts two arguments.
+
+```
+Loopr(arr, callback);
+```
+
+**arr-** The lowest number that you want the random number to be. The default value is 0.
+
+**callback-**(optional) The highest number that you want the random number to be. The default value is 100.
