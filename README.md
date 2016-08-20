@@ -154,7 +154,7 @@ var modifiedLooprObject = myLooprObject.begin("Hello, ").end("!").yell().random(
 
 Each time you call a method on your **loopr** array object, your object is actually modified. The original array that you referenced is untouched. 
 
-Here is an example of combining an array manipulation method with a DOM manipulation method. 
+Here is an example of combining an array manipulation method with a DOM manipulation method using method chaining. 
 
 ```
 //HTML
@@ -167,7 +167,7 @@ var target = document.getElementById("target");
 var people = ["Erlich", "Dinesh", "Monica", "Gilfoyle"];
 var myLooprObject = Loopr(people).begin("Hello, ").end("!").whisper().ul(target);
 
-//And this is what you would see
+//And this is what you would see on your page.
 *hello, erlich!
 *hello, dinesh!
 *hello, monica!
