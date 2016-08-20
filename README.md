@@ -140,3 +140,40 @@ Log your **loopr** array object to the console as a table.
 myLooprObject.log('table');
 ```
 
+##Chainable Methods
+Each of the available methods are chainable. Let's look at an example.
+
+```
+var people = ["Erlich", "Dinesh", "Monica", "Gilfoyle"];
+var myLooprObject = Loopr(people);
+var modifiedLooprObject = myLooprObject.begin("Hello, ").end("!").yell().random().log();
+
+//console
+["HELLO, DINESH!", "HELLO, MONICA!", "HELLO, ERLICH!", "HELLO, GILFOYLE!"]
+```
+
+Each time you call a method on your **loopr** array object, your object is actually modified. The original array that you referenced is untouched. 
+
+Here is an example of combining an array manipulation method with a DOM manipulation method. 
+
+```
+//HTML
+<body>
+  <div id="target"></div>
+</body>
+
+//JavaScript
+var target = document.getElementById("target");
+var people = ["Erlich", "Dinesh", "Monica", "Gilfoyle"];
+var myLooprObject = Loopr(people).begin("Hello, ").end("!").whisper().ul(target);
+
+//And this is what you would see
+*hello, erlich!
+*hello, dinesh!
+*hello, monica!
+*hello, gilfoyle!
+```
+
+
+
+
