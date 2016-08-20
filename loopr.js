@@ -1,10 +1,10 @@
 ;(function(global) {
-	var Loopr = function(arr, callback) {
-		return new LooprInit(arr, callback);
+	var Loopr = function(arr) {
+		return new LooprInit(arr);
 	};
 
 	class LooprInit {
-		constructor(arr, callback){
+		constructor(arr){
 			this.arr = arr;
 			this.len = arr.length;
 			
