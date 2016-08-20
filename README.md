@@ -177,6 +177,8 @@ Want to try it out? Check out the our **loopr playground** on Codepen.
 
 [Try it here](http://codepen.io/jutin/pen/WxWmZk)
 
+![alt text][logo]
+
 [logo]: http://bendtech.com/wp-content/uploads/Logo.png 
 
 
