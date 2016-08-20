@@ -32,7 +32,7 @@ Append a string of text to the beginning of each element in your **loopr** array
 myLooprObject.begin(string);
 ```
 
-####end(string)
+###end(string)
 Append a string of text to the end of each element in your **loopr** array object.
 
 ```
