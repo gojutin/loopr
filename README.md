@@ -123,8 +123,16 @@ myLooprObject.div("someId");
 Log your **loopr** array object to the console as a normal array.
 
 ```
+myLooprObject.log();
+```
+
+###log('list')
+Log each your **loopr** array object elements to the console seperately. 
+
+```
 myLooprObject.log('list');
 ```
+
 ###log('table')
 Log your **loopr** array object to the console as a table.
 
