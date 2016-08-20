@@ -173,7 +173,7 @@ Loopr(people).begin("Hello, ").end("!").whisper().ul("target");
 * hello, gilfoyle!
 ```
 
-###Want to try it out? Check out the our **loopr playground** on Codepen.
+###Want to try it out? Check out the our *loopr playground* on Codepen.
 
 ###[Try it here.](http://codepen.io/jutin/pen/WxWmZk)
 
