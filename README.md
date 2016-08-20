@@ -168,10 +168,10 @@ var people = ["Erlich", "Dinesh", "Monica", "Gilfoyle"];
 var myLooprObject = Loopr(people).begin("Hello, ").end("!").whisper().ul(target);
 
 //And this is what you would see on your page.
-*hello, erlich!
-*hello, dinesh!
-*hello, monica!
-*hello, gilfoyle!
+* hello, erlich!
+* hello, dinesh!
+* hello, monica!
+* hello, gilfoyle!
 ```
 
 
