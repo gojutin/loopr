@@ -86,3 +86,49 @@ var myNumbers = Loopr(arr);
 myNumbers.math("*", 2);
 ```
 
+##DOM Manipulation Methods
+All of the DOM manipulations take one arguement, the **id** of the DOM node that you want to use to display the return value of the method. 
+
+###ul(id)
+Create an unordered list of all elements in your **loopr** array object and write to DOM node referenced by ID.
+
+```
+myLooprObject.ul("someId");
+```
+
+###ol(id)
+Create an ordered list of all elements in your **loopr** array object and write to DOM node referenced by ID.
+
+```
+myLooprObject.ol("someId");
+```
+
+###p(id)
+Create a paragraph for each element in your **loopr** array object and write to a DOM node referenced by ID.
+
+```
+myLooprObject.p("someId");
+```
+
+###div(id)
+Create a div for each element in your **loopr** array object and write to a DOM node referenced by ID.
+
+```
+myLooprObject.div("someId");
+```
+
+##DOM Console Methods
+
+###log()
+Log your **loopr** array object to the console as a normal array.
+
+```
+myLooprObject.log('list');
+```
+###log('table')
+Log your **loopr** array object to the console as a table.
+
+```
+myLooprObject.log('table');
+```
+
