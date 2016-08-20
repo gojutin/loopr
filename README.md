@@ -25,14 +25,17 @@ Loopr(arr, callback);
 
 ##Array Manipulation Methods
 
-###begin(text)
+###begin(string)
 Append a string of text to the beginning of each element in your **loopr** array object.
 
+//example
+var gentlemen = Loopr(arr).begin("Mr.");
+
 ```
-myLooprObject.begin(text);
+myLooprObject.begin(string);
 ```
 
-##end(text)
+##end(string)
 Append a string of text to the end of each element in your **loopr** array object.
 
 ```
