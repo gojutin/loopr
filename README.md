@@ -22,3 +22,9 @@ Loopr(arr, callback);
 **arr-** The array that you want to convert into a **loopr** object.
 
 **callback-**(optional) A callback function to be invoked upon creation of your **loopr** object.
+
+##Array Manipulation Methods
+
+```
+myLooprObject.begin(text);
+```
