@@ -67,7 +67,6 @@ myLooprObject.object();
 ```
 ##math(operator, operand)
 Perform math operations on each of the array elements in your **loopr** array object. 
-Supports addition, subtraction, multiplication and division. (+, -, *, /)
 
 ```
 myLooprObject.math(operator, operand);
@@ -75,8 +74,15 @@ myLooprObject.math(operator, operand);
 
 The math() method accepts two arguments:
 
-**opeartor-** Supports addition, subtraction, multiplication and division. (+, -, *, /)
+**operator-** Supports addition, subtraction, multiplication and division. ("+", "-", "*", "/")
 
 **operand-** The number that you would like to use. 
 
+Here is a simple example of the math() method.
+
+```
+var arr = [1, 2, 3, 4, 5];
+var myNumbers = Loopr(arr);
+myNumbers.math("*", 2);
+```
 
