@@ -25,7 +25,7 @@ Loopr(arr, callback);
 
 ##Array Manipulation Methods
 
-####begin(string)
+###begin(string)
 Append a string of text to the beginning of each element in your **loopr** array object.
 
 ```
@@ -39,33 +39,33 @@ Append a string of text to the end of each element in your **loopr** array objec
 myLooprObject.end(text);
 ```
 
-####yell()
+###yell()
 Convert each element in your **loopr** array object to upper case.
 
 ```
 myLooprObject.yell();
 ```
 
-####whisper()
+###whisper()
 Convert each element in your **loopr** array object to lower case.
 
 ```
 myLooprObject.whisper();
 ```
-####random()
+###random()
 Shuffle the order of the array elements in your **loopr** array object.
 
 ```
 myLooprObject.random();
 ```
 
-####object()
+###object()
 Convert your **loopr** array object into an object.
 
 ```
 myLooprObject.object();
 ```
-####math(operator, operand)
+###math(operator, operand)
 Perform math operations on each of the array elements in your **loopr** array object. 
 
 ```
@@ -89,51 +89,51 @@ myNumbers.math("*", 2);
 ##DOM Manipulation Methods
 All of the DOM manipulations take one arguement, the **id** of the DOM node that you want to use to display the return value of the method. 
 
-####ul(id)
+###ul(id)
 Create an unordered list of all elements in your **loopr** array object and write to DOM node referenced by ID.
 
 ```
 myLooprObject.ul("someId");
 ```
 
-####ol(id)
+###ol(id)
 Create an ordered list of all elements in your **loopr** array object and write to DOM node referenced by ID.
 
 ```
 myLooprObject.ol("someId");
 ```
 
-####p(id)
+###p(id)
 Create a paragraph for each element in your **loopr** array object and write to a DOM node referenced by ID.
 
 ```
 myLooprObject.p("someId");
 ```
 
-####div(id)
+###div(id)
 Create a div for each element in your **loopr** array object and write to a DOM node referenced by ID.
 
 ```
 myLooprObject.div("someId");
 ```
 
-##DOM Console Methods
+##Console Methods
 
-####log()
+###log()
 Log your **loopr** array object to the console as a normal array.
 
 ```
 myLooprObject.log();
 ```
 
-####log('list')
+###log('list')
 Log each your **loopr** array object elements to the console seperately. 
 
 ```
 myLooprObject.log('list');
 ```
 
-####log('table')
+###log('table')
 Log your **loopr** array object to the console as a table.
 
 ```
