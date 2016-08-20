@@ -163,9 +163,8 @@ Here is an example of combining an array manipulation method with a DOM manipula
 </body>
 
 //JavaScript
-var target = document.getElementById("target");
 var people = ["Erlich", "Dinesh", "Monica", "Gilfoyle"];
-var myLooprObject = Loopr(people).begin("Hello, ").end("!").whisper().ul(target);
+Loopr(people).begin("Hello, ").end("!").whisper().ul("target");
 
 //And this is what you would see on your page.
 * hello, erlich!
@@ -173,6 +172,10 @@ var myLooprObject = Loopr(people).begin("Hello, ").end("!").whisper().ul(target)
 * hello, monica!
 * hello, gilfoyle!
 ```
+
+Want to try it out? Check out the our **loopr playground** on Codepen
+
+[Try it here](http://codepen.io/jutin/pen/WxWmZk)
 
 
 
