@@ -28,9 +28,6 @@ Loopr(arr, callback);
 ###begin(string)
 Append a string of text to the beginning of each element in your **loopr** array object.
 
-//example
-var gentlemen = Loopr(arr).begin("Mr.");
-
 ```
 myLooprObject.begin(string);
 ```
@@ -42,6 +39,19 @@ Append a string of text to the end of each element in your **loopr** array objec
 myLooprObject.end(text);
 ```
 
+##yell()
+Convert each element in your **loopr** array object to upper case.
+
+```
+myLooprObject.yell();
+```
+
+##whisper()
+Convert each element in your **loopr** array object to lower case.
+
+```
+myLooprObject.whisper();
+```
 ##random()
 Shuffle the order of the array elements in your **loopr** array object.
 
@@ -50,8 +60,23 @@ myLooprObject.random();
 ```
 
 ##object()
-Shuffle the order of the array elements in your **loopr** array object.
+Convert your **loopr** array object into an object.
 
 ```
 myLooprObject.object();
 ```
+##math(operator, operand)
+Perform math operations on each of the array elements in your **loopr** array object. 
+Supports addition, subtraction, multiplication and division. (+, -, *, /)
+
+```
+myLooprObject.math(operator, operand);
+```
+
+The math() method accepts two arguments:
+
+**opeartor-** Supports addition, subtraction, multiplication and division. (+, -, *, /)
+
+**operand-** The number that you would like to use. 
+
+
