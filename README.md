@@ -25,6 +25,30 @@ Loopr(arr, callback);
 
 ##Array Manipulation Methods
 
+###begin(text)
+Append a string of text to the beginning of each element in your **loopr** array object.
+
 ```
 myLooprObject.begin(text);
+```
+
+##end(text)
+Append a string of text to the end of each element in your **loopr** array object.
+
+```
+myLooprObject.end(text);
+```
+
+##random()
+Shuffle the order of the array elements in your **loopr** array object.
+
+```
+myLooprObject.random();
+```
+
+##object()
+Shuffle the order of the array elements in your **loopr** array object.
+
+```
+myLooprObject.object();
 ```
