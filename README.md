@@ -1,5 +1,5 @@
 # loopr
-##A minimal JavaScript library that provides chainable methods for arrays.
+## A minimal JavaScript library that provides chainable methods for arrays.
 
 The **loopr** constructor can be accessed one of two ways.
 
@@ -21,49 +21,49 @@ Loopr(arr);
 
 **arr-** The array that you want to convert into a **loopr** object.
 
-##Array Manipulation Methods
+## Array Manipulation Methods
 
-###begin(string)
+### begin(string)
 Append a string of text to the beginning of each element in your **loopr** array object.
 
 ```
 myLooprObject.begin(string);
 ```
 
-###end(string)
+### end(string)
 Append a string of text to the end of each element in your **loopr** array object.
 
 ```
 myLooprObject.end(text);
 ```
 
-###yell()
+### yell()
 Convert each element in your **loopr** array object to upper case.
 
 ```
 myLooprObject.yell();
 ```
 
-###whisper()
+### whisper()
 Convert each element in your **loopr** array object to lower case.
 
 ```
 myLooprObject.whisper();
 ```
-###random()
+### random()
 Shuffle the order of the array elements in your **loopr** array object.
 
 ```
 myLooprObject.random();
 ```
 
-###object()
+### object()
 Convert your **loopr** array object into an object.
 
 ```
 myLooprObject.object();
 ```
-###math(operator, operand)
+### math(operator, operand)
 Perform math operations on each of the array elements in your **loopr** array object. 
 
 ```
@@ -84,61 +84,61 @@ var myNumbers = Loopr(arr);
 myNumbers.math("*", 2);
 ```
 
-##DOM Manipulation Methods
+## DOM Manipulation Methods
 All of the DOM manipulations take one arguement, the **id** of the DOM node that you want to use to display the return value of the method. 
 
-###ul(id)
+### ul(id)
 Create an unordered list of all elements in your **loopr** array object and write to DOM node referenced by ID.
 
 ```
 myLooprObject.ul("someId");
 ```
 
-###ol(id)
+### ol(id)
 Create an ordered list of all elements in your **loopr** array object and write to DOM node referenced by ID.
 
 ```
 myLooprObject.ol("someId");
 ```
 
-###p(id)
+### p(id)
 Create a paragraph for each element in your **loopr** array object and write to a DOM node referenced by ID.
 
 ```
 myLooprObject.p("someId");
 ```
 
-###div(id)
+### div(id)
 Create a div for each element in your **loopr** array object and write to a DOM node referenced by ID.
 
 ```
 myLooprObject.div("someId");
 ```
 
-##Console Methods
+## Console Methods
 
-###log()
+### log()
 Log your **loopr** array object to the console as a normal array.
 
 ```
 myLooprObject.log();
 ```
 
-###log('list')
+### log('list')
 Log each your **loopr** array object elements to the console seperately. 
 
 ```
 myLooprObject.log('list');
 ```
 
-###log('table')
+### log('table')
 Log your **loopr** array object to the console as a table.
 
 ```
 myLooprObject.log('table');
 ```
 
-##Chainable Methods
+## Chainable Methods
 Each of the available methods are chainable. Let's look at an example.
 
 ```
@@ -171,10 +171,10 @@ Loopr(people).begin("Hello, ").end("!").whisper().ul("target");
 * hello, gilfoyle!
 ```
 
-###Want to try it out? Check out the our *loopr playground* on Codepen.
+### Want to try it out? Check out the our *loopr playground* on Codepen.
 
-###[Try it here.](http://codepen.io/jutin/pen/WxWmZk)
+### [Try it here.](http://codepen.io/jutin/pen/WxWmZk)
 
-##Enjoy!
+## Enjoy!
 
 
